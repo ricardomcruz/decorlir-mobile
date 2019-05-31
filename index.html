@@ -6,20 +6,35 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="mystyle.css">
     <link href="https://fonts.googleapis.com/css?family=Rubik:300,400,500,700" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    
     <title>Document</title>
 </head>
 
 <body>
     <nav>
         <div id="logo">
-                <a href="#home"><img src="img/logo.png" alt="Decorlir Logo"></a>
+            <a href="#home"><img src="img/logo.png" alt="Decorlir Logo"></a>
         </div>
         <div id="navigation">
-                <div class="container">
-                        <div class="bar1"></div>
-                        <div class="bar2"></div>
-                        <div class="bar3"></div>
-                      </div>
+            
+            
+            <div class="dropdown">
+                <button class="dropbtn"><div class="container">
+                    <div class="bar1"></div>
+                    <div class="bar2"></div>
+                    <div class="bar3"></div></a>
+                </div></button>
+                <div class="dropdown-content">
+                    <a href="#home">Início</a>
+                    <a href="#description">Empresa</a>
+                    <a href="#services">Serviços</a>
+                    <a href="#gallery">Galeria</a>
+                    <a href="#team">Equipa</a>
+                    <a href="#contact">Contacto</a>
+                </div>
+            </div>
+            
         </div>
     </nav>
     <section id="home">
@@ -74,7 +89,9 @@
     
     
     <section id="services">
-        
+        <div class="titles">
+            <h3>O que fazemos</h3>
+        </div>
         <div id="a-icon">
             <img src="img/icon.test.png" alt="Decorlir Logo">
         </div>
@@ -101,11 +118,54 @@
     </section>
     
     <section id="gallery">
-        
+        <div class="titles">
+            <h3>Galeria</h3>
+        </div>
+        <div id="photos">
+            <img src="img/sofa.jpg" alt="Decorlir Logo">
+        </div>
     </section>
     
     
     <section id="team">
+        <div class="titles2">
+            <h3>Equipa</h3>
+        </div>
+        <div class="column">
+            <div class="icon">
+                <img src="img/portrait.jpg" alt="Decorlir Logo">
+            </div>
+            <div class="text">
+                <p>Seja para recuperar o cadeirão antigo do seu avô ou para idealizar o sofá que sempre desejou, a nossa equipa encontra-se disponível para aconselhá-los.</p>
+                
+            </div>
+        </div>
+        <div class="column">
+            <div class="icon">
+                <img src="img/portrait.jpg" alt="Decorlir Logo">
+            </div>
+            <div class="text">
+                <p>Acreditamos que para alcançar o conforto/felicidade no seu espaço é necessário que possa escolher todas as características (dimensões e tecidos) das suas peças.</p>
+                
+            </div>
+        </div>
+        <div class="column">
+            <div class="icon">
+                <img src="img/portrait.jpg" alt="Decorlir Logo">
+            </div>
+            <div class="text">
+                <p>A Decorlir dedica-se desde 1989 ao fabrico de sofás, cortinados e toda a gama de peças de conforto para o seu lar ou empresa. Somos especialistas tanto em concepção de novos objectos como a restaurar o seu sofá ou o cadeirão que deseja preservar.</p>
+            </div>
+        </div>
+        <div class="column">
+            <div class="icon">
+                <img src="img/portrait.jpg" alt="Decorlir Logo">
+            </div>
+            <div class="text">
+                <p>Temos como missão oferecer ao cliente peças únicas de grande qualidade e à sua medida. Pretendemos garantir ao cliente que deseja optar pela compra de um produto de fabrico nacional e não padronizado preços acessíveis e um serviço pessoal de alto nível.</p>
+                
+            </div>
+        </div>
         
     </section>
     
@@ -113,10 +173,21 @@
     
     <footer>
         <div id="conditions">
-            <p>decorlir</p>
+            
+            <div class="conditionsdiv">© Decorlir 1989-2019 </div>
+            <div class="conditionsdiv"><a href="www.google.pt">  Termos e Condições</a></div>
+            <div class="conditionsdiv"><a href="www.google.pt">Política de Privacidade</a></p> </div>   
         </div>
         <div id="social">
-            <p>logo</p>
+            
+            <div>
+                <a href="https://www.facebook.com/decorlir/" target="_blank"> <i class="fab fa-facebook-square"> </i></a>
+                <a href="" target="_blank"> <i class="fab fa-instagram">  </i></a>
+                <a href="" target="_blank"> <i class="fab fa-youtube-square">  </i></a>
+            </div>
+            
+            
+            
             
         </div>
     </footer>
