@@ -1,39 +1,40 @@
 $(window).scroll(function() {
 
-    if ($(this).scrollTop()>200)
-     {
-        $('nav').css("background-color","rgba(197, 197, 197,1");
-     }
-    else
-     {
-      $('nav').css("background-color","rgba(197, 197, 197,0");
-     }
- });
+  if ($(this).scrollTop()>200)
+   {
+      $('nav').css("background-color","rgba(197, 197, 197,1");
+   }
+  else
+   {
+    $('nav').css("background-color","rgba(197, 197, 197,0");
+   }
+});
 
 
- var slideIndex = 1;
-showSlides(slideIndex);
+$(window).scroll(function() {
 
-function plusSlides(n) {
-  showSlides(slideIndex += n);
-}
+  if ($(this).scrollTop()>200)
+   {
+      $("#logo img").attr("src","img/estudonovologo.png");
+   }
+  else
+   {
+    $("#logo img").attr("src","img/logo.png");
+   }
+});
 
-function currentSlide(n) {
-  showSlides(slideIndex = n);
-}
 
-function showSlides(n) {
-  var i;
-  var slides = document.getElementsByClassName("mySlides");
-  var dots = document.getElementsByClassName("dot");
-  if (n > slides.length) {slideIndex = 1}    
-  if (n < 1) {slideIndex = slides.length}
-  for (i = 0; i < slides.length; i++) {
-      slides[i].style.display = "none";  
-  }
-  for (i = 0; i < dots.length; i++) {
-      dots[i].className = dots[i].className.replace(" active", "");
-  }
-  slides[slideIndex-1].style.display = "block";  
-  dots[slideIndex-1].className += " active";
-}
+$(window).scroll(function() {
+
+  if ($(this).scrollTop()>200)
+   {
+      $('footer').css("background-color","rgba(197, 197, 197,1");
+   }
+  else
+   {
+    $('footer').css("background-color","rgba(197, 197, 197,0");
+   }
+});
+
+
+
