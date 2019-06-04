@@ -2,11 +2,11 @@ $(window).scroll(function() {
 
   if ($(this).scrollTop()>400)
    {
-      $('nav').css("background-color","rgba(197, 197, 197,1");
+      $('nav').css("background-color","rgba(220, 220, 220,1");
    }
   else
    {
-    $('nav').css("background-color","rgba(197, 197, 197,0");
+    $('nav').css("background-color","rgba(220, 220, 220,0");
    }
 });
 
