@@ -25,23 +25,47 @@
             
             
             <div class="dropdown">
-                <button class="dropbtn"><div>
+                <div class="container" onclick="myFunction(this)" onclick="someFunc()">
                     <div class="bar1"></div>
                     <div class="bar2"></div>
-                    <div class="bar3"></div></a>
-                </div></button>
-                
-                <div class="dropdown-content">
-                    <div>
-                        <a href="#home">Início</a>
-                        <a href="#description">Empresa</a>
-                        <a href="#services">Produtos</a>
-                        <a href="#gallery">Galeria</a>
-                        <a href="#team">Equipa</a>
-                        <a href="#contact">Contacto</a>
-                    </div>
+                    <div class="bar3"></div>
                 </div>
+                
+                <script>
+                    function someFunc() {
+                        myFunction(x);
+                        openMenu();
+                    }
+                    
+                    
+                    function myFunction(x) {
+                        x.classList.toggle("change");
+                    }
+                    
+                    
+                    function openMenu() {
+                        var x = document.getElementsById("navigationgo");
+                        if (x.style.display === "flex") {
+                            x.style.display = "block";
+                        } else {
+                            x.style.display = "block";
+                        }
+                    }
+                </script>
+                
+                
+                
             </div>
+            
+        </div>
+        <div class="dropdown-content">
+            
+            <a href="#home">Início</a>
+            <a href="#description">Empresa</a>
+            <a href="#services">Produtos</a>
+            <a href="#gallery">Galeria</a>
+            <a href="#team">Equipa</a>
+            <a href="#contact">Contacto</a>
             
         </div>
     </nav>
@@ -69,7 +93,7 @@
                         <img src="img/icon.test.png" alt="Decorlir Logo">
                     </div>
                     <div class="text">
-                        <p>Produzimos sofás, cortinados e toda a gama de peças de conforto para o seu lar ou empresa.   Contamos com três décadas de experiência acumulada.</p>                        
+                        <p>Produzimos sofás e toda a gama de peças de conforto para o seu lar ou empresa.   Contamos com três décadas de experiência.</p>                        
                     </div>
                 </div>
                 
@@ -120,21 +144,23 @@
         
         
         <div class="container">
-            <div class="titles2">
-                <h3>O que fazemos</h3>
+            <div class="titles">
+                <h3>Produtos</h3>
             </div>
             <div id="a-icon">
                 <img src="img/icon.test.png" alt="Decorlir Logo">
             </div>
             <div id="list">
-                    <p>Sofás</p>
-                    <p>Chaise Longues</p>
-                    <p>Poltronas</p>
-                    <p>Cortinados</p>
-                    <p>Estores</p>
-                    <p>Cabeçeiras</p>
-                    <p>Colchas</p> 
-                    <p>Outros</p>
+                <ul>
+                    <li>Chaise Longues</li>
+                    <li>Poltronas</li>
+                    <li>Cortinados</li>
+                    <li>Estores</li>
+                    <li>Cabeçeiras</li>
+                    <li>Colchas</li> 
+                    <li>Outros</li>
+                    <li>Sofás</li>
+                </ul>
             </div>
             <div id="others">
                 <h4>Outros serviços </h4>
@@ -212,9 +238,12 @@
     </section>
     
     <section id="contact">
+        
         <div class="container">
-            
-            <div id="adress">
+            <div class="titles">
+                <h3>Contacto</h3>
+            </div>
+            <div id="address">
                 <p> Endereço <br>
                     Rua de Coimbra, 4 B/C <br>
                     Casal de Cambra, <br>

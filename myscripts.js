@@ -28,13 +28,27 @@ $(window).scroll(function() {
 
   if ($(this).scrollTop()>400)
    {
-      $('footer').css("background-color","rgba(197, 197, 197,1");
+      $('footer').css("background-color","rgb(255, 255, 255");
    }
   else
    {
-    $('footer').css("background-color","rgba(197, 197, 197,0");
+    $('footer').css("background-color","transparent");
    }
 });
+
+
+
+function openMenu() {
+   var x = document.getElementsById("navigation");
+   if (x.style.display === "flex") {
+       x.style.display = "block";
+   } else {
+       x.style.display = "block";
+   }
+}
+
+
+
 
 
 
