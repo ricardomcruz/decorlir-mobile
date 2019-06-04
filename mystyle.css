@@ -57,7 +57,7 @@ body {
     line-height: 1.2;
     font-family: 'Rubik', sans-serif;
     background-color: black;
-    font-size:1em;
+    font-size:3vh;
     
 }
 
@@ -188,6 +188,11 @@ nav{
 }
 
 
+section{
+    background-color: rgb(210, 230, 210);
+}
+
+
 #home{
     height: 100vh;
     
@@ -200,7 +205,7 @@ nav{
     position: fixed;
     max-width: 1400px;
     padding-left: 20px;
-    font-size: 2.5em;
+    font-size: 13vw;
     z-index: 1;
 }
 
@@ -234,7 +239,6 @@ Limpar codigo dos videos
     min-height: 100vh;
     min-width: 100%;
     overflow: hidden;
-    background-color: white;
     
     
 }
@@ -256,7 +260,6 @@ video{
     width:100%;
     height: 100vh;
     object-fit: cover;
-    background-color: rgb(39, 26, 26);
 }
 
 
@@ -291,7 +294,8 @@ a{
 }
 
 .conditionsdiv{
-    height: 25%;
+    padding-top: 7px;
+    height: 20%;
     padding-left:5px;
 }
 #social{
@@ -322,7 +326,7 @@ a{
 }
 
 #description, #team{
-    background-color: white;
+
     position: relative;
     height: 185vh;
     z-index: 4;
@@ -331,18 +335,20 @@ a{
 
 
 
-#services, #gallery{
+#gallery{
     padding-top: 15vh;
     height: 85vh;
-    background-color: rgb(57, 50, 87);
     position: relative;
     z-index: 4;
 }
 
-#services{
-    background-color: rgb(133, 127, 158);
-}
 
+#services{
+    padding-top: 15vh;
+    height: 100vh;
+    position: relative;
+    z-index: 4;
+}
 .column{
     height: calc(42.5vh - 5px);
     margin: 5px;
@@ -378,7 +384,7 @@ img{
 
 .text{
     height: 50%;
-    padding: 10px 5px 0 5px;
+    padding: 20px 5px 0 5px;
     
     
 }
@@ -402,7 +408,6 @@ p {
 #contact{
     height: 70vh;
     padding-top: 15vh;
-    background-color: aqua;
     position: relative;
     z-index: 4;
 }
@@ -416,7 +421,7 @@ p {
     align-content:center;
     flex-direction:column;
     text-align: center;
-    background-color: rgb(220,220,220)
+    background-color: rgb(255, 255, 255)
 
 }
 
@@ -434,54 +439,39 @@ p {
 
 
 #a-icon{
-    height: 50%;
-    background-color: rgb(138, 60, 60);
+    height: 30vh;
 }
 
 
 #list{
-    height: 40vh;
-    padding: 10px;
+    height: 45vh;
+    font-size: 3vh;
+    line-height: 1.8;
+    padding-left: 25px;
     
 }
 
-#list div{
-    height: 50%;
-    height: 50%;
-    
-    font-size: 1em;
+h4{
+    padding-bottom: 5px;
+    font-weight: 500;
+}
+
+#others{
+    height: 15vh;
+    font-size: 3vh;
     line-height: 1.5;
+    padding-left: 25px;
     
 }
 
-#list div p{
-    line-height: 1.5;
-}
 
 br{
     line-height: 150%;
 }
 
-ul{
-    columns: 2;
-    -webkit-columns: 2;
-    -moz-columns: 2;
-    list-style-type: none;
-    
-}
 
-h4{
-    font-weight: 900;
-    padding-top:10px;
-    padding-bottom: 10px;
-}
 
-#others ul{
-    columns: 1;
-    -webkit-columns: 1;
-    -moz-columns: 1;
 
-}
 
 
 

@@ -2,7 +2,7 @@ $(window).scroll(function() {
 
   if ($(this).scrollTop()>400)
    {
-      $('nav').css("background-color","rgba(220, 220, 220,1");
+      $('nav').css("background-color","rgba(255, 255, 255,1");
    }
   else
    {
