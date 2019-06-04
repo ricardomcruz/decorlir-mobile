@@ -302,9 +302,13 @@ footer{
 #services, #gallery{
     padding-top: 15vh;
     height: 85vh;
-    background-color: rgb(214, 205, 255);
+    background-color: rgb(57, 50, 87);
     position: relative;
     z-index: 4;
+}
+
+#services{
+    background-color: rgb(133, 127, 158);
 }
 
 .column{
@@ -363,7 +367,8 @@ p {
 
 
 #contact{
-    height: 75vh;
+    height: 70vh;
+    padding-top: 15vh;
     background-color: aqua;
     position: relative;
     z-index: 4;
@@ -371,7 +376,7 @@ p {
 
 
 .titles{
-    height: 15vh;
+    height: 8vh;
     width: 100%;
     display: flex;
     justify-content:center;
@@ -395,14 +400,15 @@ p {
 
 
 #a-icon{
-    height: 40%;
+    height: 50%;
     background-color: rgb(138, 60, 60);
 }
 
 
 #list{
-    height: 50%;
+    height: 40vh;
     padding: 10px;
+    background-color: blue
 }
 
 #list div{
